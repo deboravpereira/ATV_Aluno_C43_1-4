@@ -97,8 +97,9 @@ class Game {
 
     if (allPlayers !== undefined) {
       image(track, 0, -height * 5, width, height * 6);
+
+      //Chame show leader board
       
-      this.showLeaderboard();
 
       //índice da matriz
       var index = 0;
